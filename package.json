@@ -1,0 +1,29 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "ts 学习模板",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch",
+    "start": "node --watch dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liurongqing/typescript-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liurongqing/typescript-template/issues"
+  },
+  "homepage": "https://github.com/liurongqing/typescript-template#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "typescript": "^5.0.4"
+  }
+}
